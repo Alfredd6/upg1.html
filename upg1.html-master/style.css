@@ -1,0 +1,40 @@
+body {
+		background-color: #8B008B;
+}
+
+h1 {
+		font-size: 22px;
+		font-family: arial;
+}
+
+p {
+		color: white;
+	
+}
+
+/* Table settings */
+	
+table {
+		table-layout:fixed;
+}
+
+table, th, td {
+		border: 1px solid black;
+}
+table {
+		border-collapse: collapse;
+		width: 100%;
+}
+tr:nth-child(odd) {
+		background-color: red;
+}
+
+tr:nth-child(even) {
+		background-color: yellow;
+}
+
+th {
+		background-color: white;
+}
+
+
